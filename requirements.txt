@@ -1,0 +1,26 @@
+# LangChain 핵심 패키지 (최신 버전으로 자동 설치)
+langchain
+langchain-openai
+langchain-community
+
+# 환경 변수 관리
+python-dotenv
+
+# 데이터 처리
+pandas
+numpy
+
+# 벡터 데이터베이스
+chromadb
+# faiss-cpu  # macOS 호환성 문제로 일단 제외
+
+# 웹 스크래핑 (옵션)
+beautifulsoup4
+requests
+
+# 문서 처리
+pypdf
+python-docx
+
+# 유틸리티
+tqdm

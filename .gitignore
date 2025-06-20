@@ -1,0 +1,21 @@
+# 환경 변수
+.env
+config/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# 기타
+.DS_Store
+*.log
