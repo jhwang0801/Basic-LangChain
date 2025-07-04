@@ -284,13 +284,13 @@ def main():
 
         if vectorstore:
             # 4. 유사도 검색 테스트
-            # similarity_search_example(vectorstore)
+            similarity_search_example(vectorstore)
 
             # 5. RAG 체인 생성 (새로운 방식)
-            # rag_chain = create_rag_chain(vectorstore)
+            rag_chain = create_rag_chain(vectorstore)
 
             # 6. RAG 질문답변
-            # rag_qa_example(rag_chain)
+            rag_qa_example(rag_chain)
 
             # 7. 고급 검색 기법
             advanced_retrieval_example(vectorstore)
